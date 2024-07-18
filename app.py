@@ -1,10 +1,5 @@
 
 
-#Text to image generator
-#Change runtime type to GPU
-
-!pip install transformers accelerate diffusers invisible_watermark safetensors streamlit
-
 import streamlit as st
 from diffusers import DiffusionPipeline
 import torch
